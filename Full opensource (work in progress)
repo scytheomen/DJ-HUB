@@ -8,7 +8,7 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "DJ HUB",
    LoadingSubtitle = "by 7cyto,DJOllie777,scytheomen",
    ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
-   Theme = "Amber Glow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
 
@@ -662,4 +662,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/
    -- The function that takes place when the button is pressed
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Blox fruits script 2",
+   Callback = function()
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
 Rayfield:LoadConfiguration()
