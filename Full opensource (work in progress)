@@ -5,10 +5,10 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Main toggles",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Rayfield Interface Suite",
-   LoadingSubtitle = "by Sirius",
+   LoadingTitle = "DJ HUB",
+   LoadingSubtitle = "by 7cyto,DJOllie777,scytheomen",
    ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
-   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Amber Glow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
 
@@ -634,5 +634,32 @@ end)
    -- The function that takes place when the button is pressed
    end,
 })
-
+local Button = Tab:CreateButton({
+   Name = "T-Titans Battlegrounds",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zerolamar/ObfucatedPancakes/refs/heads/main/Gameloader"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Simple Spy",
+   Callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Blox fruits",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
 Rayfield:LoadConfiguration()
