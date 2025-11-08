@@ -670,5 +670,54 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs
    -- The function that takes place when the button is pressed
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Combat initiation script",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/marik611377/scripts/main/combatinitation.lua'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Shaders(Kinda Shitty)",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Rivals Script (OP)",
+   Callback = function()
+loadstring(game:HttpGet("https://soluna-script.vercel.app/main.lua",true))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Da Hood Script",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yuvic123/SKIDO-V3/refs/heads/main/Skido-3.4"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Forsaken Script",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BobJunior1/ForsakenBoi/refs/heads/main/B0bbyHub"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Brainrot finder for SAB + others",
+   Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2341c827712daf923191e93377656f67.lua"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "SAB script (KEY)",
+   Callback = function()
+loadstring(game:HttpGet("https://lumin-hub.lol/loader.lua",true))()
+   -- The function that takes place when the button is pressed
+   end,
+})
 
 Rayfield:LoadConfiguration()
